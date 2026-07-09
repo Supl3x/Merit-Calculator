@@ -16,7 +16,7 @@ st.set_page_config(page_title="Merit Calculator", page_icon="📊", layout="wide
 inject_css()
 
 # ── Load Data & Allocate ──────────────────────────────────────────────────────
-@st.cache_data
+@st.cache_data(ttl="1h", show_spinner="Processing Merit List...")
 def get_processed_data():
     df = load_data()
     return allocate_seats(df)
