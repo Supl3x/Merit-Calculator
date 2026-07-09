@@ -55,6 +55,21 @@ for i, spec in enumerate(spec_names):
                     <span style="color: {SPECIALIZATIONS[spec]['color']}; margin-right: 8px;">▶</span> {course}
                 </div>
                 """, unsafe_allow_html=True)
+        
+        if "electives" in spec_info:
+            st.markdown("#### Elective Choices (Years 3-4)")
+            
+            # Format electives as a table
+            elective_data = []
+            for pool, courses in spec_info["electives"].items():
+                elective_data.append({
+                    "Elective Group": pool,
+                    "Available Choices": ", ".join(courses)
+                })
+                
+            import pandas as pd
+            df_electives = pd.DataFrame(elective_data)
+            st.table(df_electives)
 
 # Note about electives
-st.info("💡 Note: Each specialization also requires selecting 5 Elective courses from a pool specific to that track, allowing you to further customize your degree.")
+st.info("💡 Note: Each specialization requires selecting 5 Electives from its specific pool above to complete the degree requirements.")

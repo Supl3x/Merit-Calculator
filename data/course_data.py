@@ -30,7 +30,14 @@ COURSE_DATA = {
                 "Network and Information Security",
                 "Parallel and Distributed Computing",
                 "Compiler Design"
-            ]
+            ],
+            "electives": {
+                "Elective I": ["Object Oriented Analysis and Design", "Programming for Artificial Intelligence", "Fundamentals of Data Science", "Fundamentals of Cybersecurity", "Fundamentals of Game Development"],
+                "Elective II": ["Numerical Methods", "Data Mining", "Machine Learning"],
+                "Elective III": ["E-Commerce", "Natural Language Processing", "Blockchain Technologies", "Modeling and Simulation"],
+                "Elective IV": ["Computer Graphics", "Visual Programming", "Distributed Computing"],
+                "Elective V": ["Data Warehouse Mining", "Wireless Network and Mobile Computing", "Introduction to Cyber Security"]
+            }
         },
         "Artificial Intelligence": {
             "focus": "Focuses on machine learning, knowledge representation, and building intelligent systems.",
@@ -46,7 +53,13 @@ COURSE_DATA = {
                 "Knowledge Representation and Reasoning",
                 "Network and Information Security",
                 "Image Processing and Computer Vision"
-            ]
+            ],
+            "electives": {
+                "Elective I": ["Object Oriented Analysis and Design", "Programming for Artificial Intelligence", "Fundamentals of Data Science", "Fundamentals of Cybersecurity", "Fundamentals of Game Development"],
+                "Elective II & III": ["Fuzzy Systems", "Knowledge Based Systems", "Data Mining", "Speech Processing"],
+                "Elective IV": ["Deep Learning", "Blockchain Technologies", "Swarm Intelligence"],
+                "Elective V": ["Reinforcement Learning", "Generative AI"]
+            }
         },
         "Data Science": {
             "focus": "Focuses on extracting insights from large datasets, predictive modeling, and data engineering.",
@@ -62,7 +75,13 @@ COURSE_DATA = {
                 "Data Analysis and Visualisation",
                 "Parallel and Distributed Computing",
                 "Information Security"
-            ]
+            ],
+            "electives": {
+                "Elective I": ["Object Oriented Analysis and Design", "Programming for Artificial Intelligence", "Fundamentals of Data Science", "Fundamentals of Cybersecurity", "Fundamentals of Game Development"],
+                "Elective II & III": ["Business Process Analysis", "Platform and Architecture for Data Science", "Machine Learning", "Speech Processing"],
+                "Elective IV": ["Artificial Neural Networks", "Blockchain Technologies", "Privacy Preservation"],
+                "Elective V": ["Deep Learning", "Cloud Computing", "Text Mining"]
+            }
         },
         "Cyber Security": {
             "focus": "Focuses on protecting systems, networks, and data from digital attacks and unauthorized access.",
@@ -79,7 +98,13 @@ COURSE_DATA = {
                 "Vulnerability Assessment and Reverse Engineering",
                 "Secure Software Design and Development",
                 "Digital Forensics"
-            ]
+            ],
+            "electives": {
+                "Elective I": ["Object Oriented Analysis and Design", "Programming for Artificial Intelligence", "Fundamentals of Data Science", "Fundamentals of Cybersecurity", "Fundamentals of Game Development"],
+                "Elective II & III": ["Cybersecurity Laws and Regulations", "Cryptography and Cryptanalysis", "Wireless and Mobile Security", "Penetration Testing"],
+                "Elective IV": ["Hardware Security", "Blockchain Technologies", "Embedded Systems Security"],
+                "Elective V": ["Malware Analysis", "Quantum Security"]
+            }
         },
         "Gaming & Animation": {
             "focus": "Focuses on game development, 3D programming, computer graphics, and interactive media.",
@@ -97,7 +122,13 @@ COURSE_DATA = {
                 "Network and Information Security",
                 "Motion Capture and Digital Animation",
                 "Parallel and Distributed Computing"
-            ]
+            ],
+            "electives": {
+                "Elective I": ["Object Oriented Analysis and Design", "Programming for Artificial Intelligence", "Fundamentals of Data Science", "Fundamentals of Cybersecurity", "Fundamentals of Game Development"],
+                "Elective II & III": ["Graphics Design", "Modeling and Animation", "Theory of Automata and Formal Languages", "Art for Games", "Storyboarding and Previsualization", "Video Games and Creative Writing"],
+                "Elective IV": ["Web 3D Programming", "Multicore and GPU Programming", "Blockchain Technologies", "Software Security"],
+                "Elective V": ["Metaverse and its Applications", "Human Computer Interaction", "Interactive Games and Audio"]
+            }
         }
     }
 }
