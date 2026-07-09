@@ -178,6 +178,11 @@ with tab_filter:
     # Format for display
     display_df['cgpa'] = display_df['cgpa'].map('{:.3f}'.format)
     
+    # Reset index to reflect current filtered ranking
+    display_df.reset_index(drop=True, inplace=True)
+    display_df.index = display_df.index + 1
+    display_df.index.name = "Rank"
+    
     st.markdown(f"**Showing {len(display_df)} students**")
     st.dataframe(display_df, use_container_width=True, height=600)
     
