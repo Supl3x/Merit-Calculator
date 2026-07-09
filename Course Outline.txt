@@ -1,0 +1,241 @@
+NED University - BS Computer Science Course Scheme (Undergraduate Prospectus 2024)
+Manually corrected/verified against source PDF (pages 1-4). Original OCR/table parse had column-bleed errors in ~14 of 20 tables; this file replaces those with verified data.
+
+Format: Year | Specialisation | Semester | Section | CourseCode | CourseTitle | Th | Pr | Total
+(Th = Theory credit hours, Pr = Practical credit hours, Total = Total credit hours, NC = Non-Credit)
+
+FIRST YEAR | Common to all Specialisations | Fall | Core | CT-175 | Programming Fundamentals | 3 | 1 | 4
+FIRST YEAR | Common to all Specialisations | Fall | Core | CT-174 | Fundamentals of Information Technology | 2 | 1 | 3
+FIRST YEAR | Common to all Specialisations | Fall | Core | EA-104 | Functional English | 3 | 0 | 3
+FIRST YEAR | Common to all Specialisations | Fall | Core | PH-122 | Applied Physics | 3 | 1 | 4
+FIRST YEAR | Common to all Specialisations | Fall | Core (OR) | ES-205 | Islamic Studies | 2 | 0 | 2
+FIRST YEAR | Common to all Specialisations | Fall | Core (OR) | ES-209 | Ethical Behaviour (for Non-Muslims) | - | - | -
+FIRST YEAR | Common to all Specialisations | Fall | Core (OR, Pre-Medical) | MT-001 | Mathematics-1 (for Pre-Medical) | - | - | NC
+FIRST YEAR | Common to all Specialisations | Spring | Core | CS-251 | Logic Design and Switching Theory | 3 | 1 | 4
+FIRST YEAR | Common to all Specialisations | Spring | Core | CT-162 | Discrete Structures | 3 | 0 | 3
+FIRST YEAR | Common to all Specialisations | Spring | Core | CT-260 | Object Oriented Programming | 3 | 1 | 4
+FIRST YEAR | Common to all Specialisations | Spring | Core | MT-171 | Differential and Integral Calculus | 3 | 0 | 3
+FIRST YEAR | Common to all Specialisations | Spring | Core (OR) | ES-105 | Pakistan Studies | 2 | 0 | 2
+FIRST YEAR | Common to all Specialisations | Spring | Core (OR) | ES-127 | Pakistan Studies (for Foreigners) | - | - | -
+FIRST YEAR | Common to all Specialisations | Spring | Core (OR, Pre-Medical) | MT-002 | Mathematics-2 (for Pre-Medical) | - | - | NC
+
+SECOND YEAR | Common to all Specialisations | Fall | Core | CT-159 | Data Structure Algorithms and Applications | 3 | 1 | 4
+SECOND YEAR | Common to all Specialisations | Fall | Core | MT-227 | Differential Equations | 3 | 0 | 3
+SECOND YEAR | Common to all Specialisations | Fall | Core | EA-115 | Academic Reading and Writing | 3 | 0 | 3
+SECOND YEAR | Common to all Specialisations | Fall | Core | EA-219 | Professional Ethics | 2 | 0 | 2
+SECOND YEAR | Common to all Specialisations | Fall | Core | MT-331 | Probability and Statistics | 3 | 0 | 3
+SECOND YEAR | Common to all Specialisations | Spring | Core | CS-252 | Computer Architecture and Organization | 3 | 1 | 4
+SECOND YEAR | Common to all Specialisations | Spring | Core | CT-261 | Database Management Systems | 3 | 1 | 4
+SECOND YEAR | Common to all Specialisations | Spring | Core | EA-218 | Business Communication | 2 | 1 | 3
+SECOND YEAR | Common to all Specialisations | Spring | Core | EC-209 | Financial and Cost Accounting | 3 | 0 | 3
+SECOND YEAR | Common to all Specialisations | Spring | Core | MT-272 | Linear Algebra and Geometry | 3 | 0 | 3
+SECOND YEAR | Common to all Specialisations | Spring | Core | EA-200 | Community Service | - | - | NC
+
+THIRD YEAR | Computer Science (No Specialisation) | Fall | Core | ##-### | Computer Science Elective I | 2 | 1 | 3
+THIRD YEAR | Computer Science (No Specialisation) | Fall | Core | ##-### | Computer Science Elective II | 3 | 0 | 3
+THIRD YEAR | Computer Science (No Specialisation) | Fall | Core | CT-365 | Software Engineering | 3 | 0 | 3
+THIRD YEAR | Computer Science (No Specialisation) | Fall | Core | CT-262 | Introduction to Artificial Intelligence | 2 | 1 | 3
+THIRD YEAR | Computer Science (No Specialisation) | Fall | Core | CT-363 | Design and Analysis of Algorithms | 3 | 0 | 3
+THIRD YEAR | Computer Science (No Specialisation) | Fall | Core | CT-364 | Theory of Automata and Formal Languages | 3 | 0 | 3
+THIRD YEAR | Computer Science (No Specialisation) | Spring | Core | ##-### | Computer Science Elective III | 3 | 0 | 3
+THIRD YEAR | Computer Science (No Specialisation) | Spring | Core | CT-376 | Computer Communication Networks | 3 | 1 | 4
+THIRD YEAR | Computer Science (No Specialisation) | Spring | Core | CT-353 | Operating Systems | 3 | 1 | 4
+THIRD YEAR | Computer Science (No Specialisation) | Spring | Core | CT-362 | Web Engineering | 3 | 1 | 4
+THIRD YEAR | Computer Science (No Specialisation) | Spring | Core | CT-367 | Theory of Programming Languages | 3 | 0 | 3
+THIRD YEAR | Computer Science (No Specialisation) | Spring | Core | EA/ES-### | Foreign Language - I | - | - | NC
+
+FINAL YEAR | Computer Science (No Specialisation) | Fall | Core | CT-499 | Computer Science Project* | 0 | 3 | 3
+FINAL YEAR | Computer Science (No Specialisation) | Fall | Core | MG-482 | Organisational Behaviour | 3 | 0 | 3
+FINAL YEAR | Computer Science (No Specialisation) | Fall | Core | ##-### | Computer Science Elective IV | 3 | 1 | 4
+FINAL YEAR | Computer Science (No Specialisation) | Fall | Core | CT-486 | Network and Information Security | 3 | 1 | 4
+FINAL YEAR | Computer Science (No Specialisation) | Fall | Core | CT-407 | Human Computer Interaction | 3 | 0 | 3
+FINAL YEAR | Computer Science (No Specialisation) | Fall | Core | EA/ES-### | Foreign Language - II | - | - | NC
+FINAL YEAR | Computer Science (No Specialisation) | Spring | Core | CT-499 | Computer Science Project | 0 | 3 | 3
+FINAL YEAR | Computer Science (No Specialisation) | Spring | Core | ##-### | Computer Science Elective V | 3 | 1 | 4
+FINAL YEAR | Computer Science (No Specialisation) | Spring | Core | CS-428 | Parallel and Distributed Computing | 3 | 1 | 4
+FINAL YEAR | Computer Science (No Specialisation) | Spring | Core | CT-465 | Compiler Design | 3 | 0 | 3
+FINAL YEAR | Computer Science (No Specialisation) | Spring | Core | MG-481 | Entrepreneurship | 3 | 0 | 3
+
+THIRD/FOURTH YEAR | Computer Science (No Specialisation) | - | Elective I (choose one) | CT-263 | Object Oriented Analysis and Design | 2 | 1 | 3
+THIRD/FOURTH YEAR | Computer Science (No Specialisation) | - | Elective I (choose one) | CT-264 | Programming for Artificial Intelligence | 2 | 1 | 3
+THIRD/FOURTH YEAR | Computer Science (No Specialisation) | - | Elective I (choose one) | CT-368 | Fundamentals of Data Science | 2 | 1 | 3
+THIRD/FOURTH YEAR | Computer Science (No Specialisation) | - | Elective I (choose one) | CT-266 | Fundamentals of Cybersecurity | 2 | 1 | 3
+THIRD/FOURTH YEAR | Computer Science (No Specialisation) | - | Elective I (choose one) | CT-267 | Fundamentals of Game Development | 2 | 1 | 3
+THIRD/FOURTH YEAR | Computer Science (No Specialisation) | - | Elective II (choose one) | MT-442 | Numerical Methods | 3 | 0 | 3
+THIRD/FOURTH YEAR | Computer Science (No Specialisation) | - | Elective II (choose one) | CT-377 | Data Mining | 3 | 0 | 3
+THIRD/FOURTH YEAR | Computer Science (No Specialisation) | - | Elective II (choose one) | CT-378 | Machine Learning | 3 | 0 | 3
+THIRD/FOURTH YEAR | Computer Science (No Specialisation) | - | Elective III (choose one) | CT-366 | E-Commerce | 3 | 0 | 3
+THIRD/FOURTH YEAR | Computer Science (No Specialisation) | - | Elective III (choose one) | CT-485 | Natural Language Processing | 3 | 0 | 3
+THIRD/FOURTH YEAR | Computer Science (No Specialisation) | - | Elective III (choose one) | CT-403 | Blockchain Technologies | 2 | 1 | 3
+THIRD/FOURTH YEAR | Computer Science (No Specialisation) | - | Elective III (choose one) | CT-464 | Modeling and Simulation | 3 | 0 | 3
+THIRD/FOURTH YEAR | Computer Science (No Specialisation) | - | Elective IV (choose one) | CT-352 | Computer Graphics | 3 | 1 | 4
+THIRD/FOURTH YEAR | Computer Science (No Specialisation) | - | Elective IV (choose one) | CT-487 | Visual Programming | 3 | 1 | 4
+THIRD/FOURTH YEAR | Computer Science (No Specialisation) | - | Elective IV (choose one) | CT-488 | Distributed Computing | 3 | 1 | 4
+THIRD/FOURTH YEAR | Computer Science (No Specialisation) | - | Elective V (choose one) | CT-463 | Data Warehouse Mining | 3 | 1 | 4
+THIRD/FOURTH YEAR | Computer Science (No Specialisation) | - | Elective V (choose one) | CT-481 | Wireless Network and Mobile Computing | 3 | 1 | 4
+THIRD/FOURTH YEAR | Computer Science (No Specialisation) | - | Elective V (choose one) | CT-484 | Introduction to Cyber Security | 3 | 1 | 4
+
+THIRD YEAR | Artificial Intelligence | Fall | Core | ##-### | Artificial Intelligence Elective I | 2 | 1 | 3
+THIRD YEAR | Artificial Intelligence | Fall | Core | ##-### | Artificial Intelligence Elective II | 3 | 0 | 3
+THIRD YEAR | Artificial Intelligence | Fall | Core | CT-361 | Artificial Intelligence and Expert Systems | 3 | 1 | 4
+THIRD YEAR | Artificial Intelligence | Fall | Core | CT-353 | Operating Systems | 3 | 1 | 4
+THIRD YEAR | Artificial Intelligence | Fall | Core | CT-365 | Software Engineering | 3 | 0 | 3
+THIRD YEAR | Artificial Intelligence | Spring | Core | ##-### | Artificial Intelligence Elective III | 3 | 0 | 3
+THIRD YEAR | Artificial Intelligence | Spring | Core | CT-363 | Design and Analysis of Algorithms | 3 | 0 | 3
+THIRD YEAR | Artificial Intelligence | Spring | Core | CT-376 | Computer Communication Networks | 3 | 1 | 4
+THIRD YEAR | Artificial Intelligence | Spring | Core | CS-428 | Parallel and Distributed Computing | 3 | 1 | 4
+THIRD YEAR | Artificial Intelligence | Spring | Core | CT-354 | Machine Learning | 3 | 1 | 4
+THIRD YEAR | Artificial Intelligence | Spring | Core | EA/ES-### | Foreign Language - I | - | - | NC
+
+FINAL YEAR | Artificial Intelligence | Fall | Core | CT-499 | Computer Science Project* | 0 | 3 | 3
+FINAL YEAR | Artificial Intelligence | Fall | Core | ##-### | Artificial Intelligence Elective IV | 3 | 0 | 3
+FINAL YEAR | Artificial Intelligence | Fall | Core | CT-466 | Artificial Neural Networks | 3 | 0 | 3
+FINAL YEAR | Artificial Intelligence | Fall | Core | CT-485 | Natural Language Processing | 3 | 0 | 3
+FINAL YEAR | Artificial Intelligence | Fall | Core | MG-482 | Organisational Behaviour | 3 | 0 | 3
+FINAL YEAR | Artificial Intelligence | Fall | Core | CT-351 | Knowledge Representation and Reasoning | 3 | 0 | 3
+FINAL YEAR | Artificial Intelligence | Fall | Core | EA/ES-### | Foreign Language - II | - | - | NC
+FINAL YEAR | Artificial Intelligence | Spring | Core | CT-499 | Computer Science Project | 0 | 3 | 3
+FINAL YEAR | Artificial Intelligence | Spring | Core | ##-### | Artificial Intelligence Elective V | 3 | 0 | 3
+FINAL YEAR | Artificial Intelligence | Spring | Core | CT-486 | Network and Information Security | 3 | 1 | 4
+FINAL YEAR | Artificial Intelligence | Spring | Core | CT-467 | Image Processing and Computer Vision | 3 | 1 | 4
+FINAL YEAR | Artificial Intelligence | Spring | Core | MG-481 | Entrepreneurship | 3 | 0 | 3
+
+THIRD/FOURTH YEAR | Artificial Intelligence | - | Elective I (choose one) | CT-263 | Object Oriented Analysis and Design | 2 | 1 | 3
+THIRD/FOURTH YEAR | Artificial Intelligence | - | Elective I (choose one) | CT-264 | Programming for Artificial Intelligence | 2 | 1 | 3
+THIRD/FOURTH YEAR | Artificial Intelligence | - | Elective I (choose one) | CT-368 | Fundamentals of Data Science | 2 | 1 | 3
+THIRD/FOURTH YEAR | Artificial Intelligence | - | Elective I (choose one) | CT-266 | Fundamentals of Cybersecurity | 2 | 1 | 3
+THIRD/FOURTH YEAR | Artificial Intelligence | - | Elective I (choose one) | CT-267 | Fundamentals of Game Development | 2 | 1 | 3
+THIRD/FOURTH YEAR | Artificial Intelligence | - | Elective II & III (choose two) | CT-358 | Fuzzy Systems | 3 | 0 | 3
+THIRD/FOURTH YEAR | Artificial Intelligence | - | Elective II & III (choose two) | CT-359 | Knowledge Based Systems | 3 | 0 | 3
+THIRD/FOURTH YEAR | Artificial Intelligence | - | Elective II & III (choose two) | CT-377 | Data Mining | 3 | 0 | 3
+THIRD/FOURTH YEAR | Artificial Intelligence | - | Elective II & III (choose two) | CT-357 | Speech Processing | 3 | 0 | 3
+THIRD/FOURTH YEAR | Artificial Intelligence | - | Elective IV (choose one) | CT-468 | Deep Learning | 3 | 0 | 3
+THIRD/FOURTH YEAR | Artificial Intelligence | - | Elective IV (choose one) | CT-403 | Blockchain Technologies | 2 | 1 | 3
+THIRD/FOURTH YEAR | Artificial Intelligence | - | Elective IV (choose one) | CT-470 | Swarm Intelligence | 3 | 0 | 3
+THIRD/FOURTH YEAR | Artificial Intelligence | - | Elective V (choose one) | CT-469 | Reinforcement Learning | 3 | 0 | 3
+THIRD/FOURTH YEAR | Artificial Intelligence | - | Elective V (choose one) | CT-410 | Generative AI | 3 | 0 | 3
+
+THIRD YEAR | Data Science | Fall | Core | ##-### | Data Science Elective I | 2 | 1 | 3
+THIRD YEAR | Data Science | Fall | Core | ##-### | Data Science Elective II | 3 | 0 | 3
+THIRD YEAR | Data Science | Fall | Core | CT-265 | Introduction to Tools and Techniques for Data Science | 2 | 1 | 3
+THIRD YEAR | Data Science | Fall | Core | CT-365 | Software Engineering | 3 | 0 | 3
+THIRD YEAR | Data Science | Fall | Core | CT-361 | Artificial Intelligence and Expert Systems | 3 | 1 | 4
+THIRD YEAR | Data Science | Spring | Core | ##-### | Data Science Elective III | 3 | 0 | 3
+THIRD YEAR | Data Science | Spring | Core | CT-356 | Data Mining | 3 | 1 | 4
+THIRD YEAR | Data Science | Spring | Core | CT-376 | Computer Communication Networks | 3 | 1 | 4
+THIRD YEAR | Data Science | Spring | Core | CT-363 | Design and Analysis of Algorithms | 3 | 0 | 3
+THIRD YEAR | Data Science | Spring | Core | CT-353 | Operating Systems | 3 | 1 | 4
+THIRD YEAR | Data Science | Spring | Core | EA/ES-### | Foreign Language - I | - | - | NC
+
+FINAL YEAR | Data Science | Fall | Core | CT-499 | Computer Science Project* | 0 | 3 | 3
+FINAL YEAR | Data Science | Fall | Core | ##-### | Data Science Elective IV | 3 | 0 | 3
+FINAL YEAR | Data Science | Fall | Core | CT-472 | Data Warehousing and Business Intelligence | 3 | 1 | 4
+FINAL YEAR | Data Science | Fall | Core | CT-471 | Data Analysis and Visualisation | 3 | 1 | 4
+FINAL YEAR | Data Science | Fall | Core | CS-428 | Parallel and Distributed Computing | 3 | 1 | 4
+FINAL YEAR | Data Science | Fall | Core | EA/ES-### | Foreign Language - II | - | - | NC
+FINAL YEAR | Data Science | Spring | Core | CT-499 | Computer Science Project | 0 | 3 | 3
+FINAL YEAR | Data Science | Spring | Core | ##-### | Data Science Elective V | 3 | 0 | 3
+FINAL YEAR | Data Science | Spring | Core | MG-482 | Organisational Behaviour | 3 | 0 | 3
+FINAL YEAR | Data Science | Spring | Core | MG-481 | Entrepreneurship | 3 | 0 | 3
+FINAL YEAR | Data Science | Spring | Core | CT-355 | Information Security | 3 | 0 | 3
+FINAL YEAR | Data Science | Spring | Core | CT-410 | Generative AI | 3 | 0 | 3
+
+THIRD/FOURTH YEAR | Data Science | - | Elective I (choose one) | CT-263 | Object Oriented Analysis and Design | 2 | 1 | 3
+THIRD/FOURTH YEAR | Data Science | - | Elective I (choose one) | CT-264 | Programming for Artificial Intelligence | 2 | 1 | 3
+THIRD/FOURTH YEAR | Data Science | - | Elective I (choose one) | CT-368 | Fundamentals of Data Science | 2 | 1 | 3
+THIRD/FOURTH YEAR | Data Science | - | Elective I (choose one) | CT-266 | Fundamentals of Cybersecurity | 2 | 1 | 3
+THIRD/FOURTH YEAR | Data Science | - | Elective I (choose one) | CT-267 | Fundamentals of Game Development | 2 | 1 | 3
+THIRD/FOURTH YEAR | Data Science | - | Elective II & III (choose two) | CT-369 | Business Process Analysis | 3 | 0 | 3
+THIRD/FOURTH YEAR | Data Science | - | Elective II & III (choose two) | CT-370 | Platform and Architecture for Data Science | 3 | 0 | 3
+THIRD/FOURTH YEAR | Data Science | - | Elective II & III (choose two) | CT-378 | Machine Learning | 3 | 0 | 3
+THIRD/FOURTH YEAR | Data Science | - | Elective II & III (choose two) | CT-357 | Speech Processing | 3 | 0 | 3
+THIRD/FOURTH YEAR | Data Science | - | Elective IV (choose one) | CT-466 | Artificial Neural Networks | 3 | 0 | 3
+THIRD/FOURTH YEAR | Data Science | - | Elective IV (choose one) | CT-403 | Blockchain Technologies | 2 | 1 | 3
+THIRD/FOURTH YEAR | Data Science | - | Elective IV (choose one) | CT-475 | Privacy Preservation | 3 | 0 | 3
+THIRD/FOURTH YEAR | Data Science | - | Elective V (choose one) | CT-468 | Deep Learning | 3 | 0 | 3
+THIRD/FOURTH YEAR | Data Science | - | Elective V (choose one) | CT-473 | Cloud Computing | 3 | 0 | 3
+THIRD/FOURTH YEAR | Data Science | - | Elective V (choose one) | CT-474 | Text Mining | 3 | 0 | 3
+
+THIRD YEAR | Cyber Security | Fall | Core | ##-### | Cyber Security Elective I | 2 | 1 | 3
+THIRD YEAR | Cyber Security | Fall | Core | ##-### | Cyber Security Elective II | 3 | 0 | 3
+THIRD YEAR | Cyber Security | Fall | Core | CT-363 | Design and Analysis of Algorithms | 3 | 0 | 3
+THIRD YEAR | Cyber Security | Fall | Core | CT-365 | Software Engineering | 3 | 0 | 3
+THIRD YEAR | Cyber Security | Fall | Core | CT-476 | Information Assurance | 3 | 0 | 3
+THIRD YEAR | Cyber Security | Fall | Core | CT-355 | Information Security | 3 | 0 | 3
+THIRD YEAR | Cyber Security | Spring | Core | ##-### | Cyber Security Elective III | 3 | 0 | 3
+THIRD YEAR | Cyber Security | Spring | Core | MG-482 | Organisational Behaviour | 3 | 0 | 3
+THIRD YEAR | Cyber Security | Spring | Core | CT-361 | Artificial Intelligence and Expert Systems | 3 | 1 | 4
+THIRD YEAR | Cyber Security | Spring | Core | CT-353 | Operating Systems | 3 | 1 | 4
+THIRD YEAR | Cyber Security | Spring | Core | CT-376 | Computer Communication Networks | 3 | 1 | 4
+THIRD YEAR | Cyber Security | Spring | Core | EA/ES-### | Foreign Language - I | - | - | NC
+
+FINAL YEAR | Cyber Security | Fall | Core | CT-499 | Computer Science Project* | 0 | 3 | 3
+FINAL YEAR | Cyber Security | Fall | Core | ##-### | Cyber Security Elective IV | 3 | 0 | 3
+FINAL YEAR | Cyber Security | Fall | Core | CT-486 | Network and Information Security | 3 | 1 | 4
+FINAL YEAR | Cyber Security | Fall | Core | CS-428 | Parallel and Distributed Computing | 3 | 1 | 4
+FINAL YEAR | Cyber Security | Fall | Core | CT-371 | Vulnerability Assessment and Reverse Engineering | 3 | 1 | 4
+FINAL YEAR | Cyber Security | Fall | Core | EA/ES-### | Foreign Language - II | - | - | NC
+FINAL YEAR | Cyber Security | Spring | Core | CT-499 | Computer Science Project | 0 | 3 | 3
+FINAL YEAR | Cyber Security | Spring | Core | ##-### | Cyber Security Elective V | 3 | 0 | 3
+FINAL YEAR | Cyber Security | Spring | Core | CT-477 | Secure Software Design and Development | 3 | 1 | 4
+FINAL YEAR | Cyber Security | Spring | Core | MG-481 | Entrepreneurship | 3 | 0 | 3
+FINAL YEAR | Cyber Security | Spring | Core | CT-478 | Digital Forensics | 2 | 1 | 3
+
+THIRD/FOURTH YEAR | Cyber Security | - | Elective I (choose one) | CT-263 | Object Oriented Analysis and Design | 2 | 1 | 3
+THIRD/FOURTH YEAR | Cyber Security | - | Elective I (choose one) | CT-264 | Programming for Artificial Intelligence | 2 | 1 | 3
+THIRD/FOURTH YEAR | Cyber Security | - | Elective I (choose one) | CT-368 | Fundamentals of Data Science | 2 | 1 | 3
+THIRD/FOURTH YEAR | Cyber Security | - | Elective I (choose one) | CT-266 | Fundamentals of Cybersecurity | 2 | 1 | 3
+THIRD/FOURTH YEAR | Cyber Security | - | Elective I (choose one) | CT-267 | Fundamentals of Game Development | 2 | 1 | 3
+THIRD/FOURTH YEAR | Cyber Security | - | Elective II & III (choose two) | CT-374 | Cybersecurity Laws and Regulations | 3 | 0 | 3
+THIRD/FOURTH YEAR | Cyber Security | - | Elective II & III (choose two) | CT-375 | Cryptography and Cryptanalysis | 3 | 0 | 3
+THIRD/FOURTH YEAR | Cyber Security | - | Elective II & III (choose two) | CT-372 | Wireless and Mobile Security | 3 | 0 | 3
+THIRD/FOURTH YEAR | Cyber Security | - | Elective II & III (choose two) | CT-373 | Penetration Testing | 3 | 0 | 3
+THIRD/FOURTH YEAR | Cyber Security | - | Elective IV (choose one) | CT-479 | Hardware Security | 3 | 0 | 3
+THIRD/FOURTH YEAR | Cyber Security | - | Elective IV (choose one) | CT-403 | Blockchain Technologies | 2 | 1 | 3
+THIRD/FOURTH YEAR | Cyber Security | - | Elective IV (choose one) | CT-482 | Embedded Systems Security | 3 | 0 | 3
+THIRD/FOURTH YEAR | Cyber Security | - | Elective V (choose one) | CT-480 | Malware Analysis | 3 | 0 | 3
+THIRD/FOURTH YEAR | Cyber Security | - | Elective V (choose one) | CT-483 | Quantum Security | 3 | 0 | 3
+
+THIRD YEAR | Gaming and Animation | Fall | Core | ##-### | Gaming and Animation Elective I | 3 | 0 | 3
+THIRD YEAR | Gaming and Animation | Fall | Core | ##-### | Gaming and Animation Elective II | 2 | 1 | 3
+THIRD YEAR | Gaming and Animation | Fall | Core | CT-379 | Game Programming | 3 | 1 | 4
+THIRD YEAR | Gaming and Animation | Fall | Core | CT-363 | Design and Analysis of Algorithms | 3 | 0 | 3
+THIRD YEAR | Gaming and Animation | Fall | Core | CT-365 | Software Engineering | 3 | 0 | 3
+THIRD YEAR | Gaming and Animation | Fall | Core | CT-380 | Regulations and Ethics in Gaming Industry | 2 | 0 | 2
+THIRD YEAR | Gaming and Animation | Spring | Core | ##-### | Gaming and Animation Elective III | 3 | 0 | 3
+THIRD YEAR | Gaming and Animation | Spring | Core | CT-353 | Operating Systems | 3 | 1 | 4
+THIRD YEAR | Gaming and Animation | Spring | Core | CT-376 | Computer Communication Networks | 3 | 1 | 4
+THIRD YEAR | Gaming and Animation | Spring | Core | CT-382 | Game Design and Development | 3 | 1 | 4
+THIRD YEAR | Gaming and Animation | Spring | Core | CT-383 | Design of AR and VR Applications | 1 | 2 | 3
+THIRD YEAR | Gaming and Animation | Spring | Core | EA/ES-### | Foreign Language - I | - | - | NC
+
+FINAL YEAR | Gaming and Animation | Fall | Core | CT-499 | Computer Science Project* | 0 | 3 | 3
+FINAL YEAR | Gaming and Animation | Fall | Core | ##-### | Gaming and Animation Elective IV | 3 | 0 | 3
+FINAL YEAR | Gaming and Animation | Fall | Core | CT-361 | Artificial Intelligence and Expert Systems | 3 | 1 | 4
+FINAL YEAR | Gaming and Animation | Fall | Core | CT-409 | Mobile Application Development | 2 | 1 | 3
+FINAL YEAR | Gaming and Animation | Fall | Core | CT-486 | Network and Information Security | 3 | 1 | 4
+FINAL YEAR | Gaming and Animation | Fall | Core | EA/ES-### | Foreign Language - II | - | - | NC
+FINAL YEAR | Gaming and Animation | Spring | Core | CT-499 | Computer Science Project | 0 | 3 | 3
+FINAL YEAR | Gaming and Animation | Spring | Core | ##-### | Gaming and Animation Elective V | 3 | 0 | 3
+FINAL YEAR | Gaming and Animation | Spring | Core | CT-404 | Motion Capture and Digital Animation | 3 | 1 | 4
+FINAL YEAR | Gaming and Animation | Spring | Core | CS-428 | Parallel and Distributed Computing | 3 | 1 | 4
+FINAL YEAR | Gaming and Animation | Spring | Core | MG-481 | Entrepreneurship | 3 | 0 | 3
+
+THIRD/FOURTH YEAR | Gaming and Animation | - | Elective I (choose one) | CT-263 | Object Oriented Analysis and Design | 2 | 1 | 3
+THIRD/FOURTH YEAR | Gaming and Animation | - | Elective I (choose one) | CT-264 | Programming for Artificial Intelligence | 2 | 1 | 3
+THIRD/FOURTH YEAR | Gaming and Animation | - | Elective I (choose one) | CT-368 | Fundamentals of Data Science | 2 | 1 | 3
+THIRD/FOURTH YEAR | Gaming and Animation | - | Elective I (choose one) | CT-266 | Fundamentals of Cybersecurity | 2 | 1 | 3
+THIRD/FOURTH YEAR | Gaming and Animation | - | Elective I (choose one) | CT-267 | Fundamentals of Game Development | 2 | 1 | 3
+THIRD/FOURTH YEAR | Gaming and Animation | - | Elective II & III (choose two) | CT-384 | Graphics Design | 2 | 1 | 3
+THIRD/FOURTH YEAR | Gaming and Animation | - | Elective II & III (choose two) | CT-381 | Modeling and Animation | 1 | 2 | 3
+THIRD/FOURTH YEAR | Gaming and Animation | - | Elective II & III (choose two) | CT-364 | Theory of Automata and Formal Languages | 3 | 0 | 3
+THIRD/FOURTH YEAR | Gaming and Animation | - | Elective II & III (choose two) | CT-385 | Art for Games | 2 | 1 | 3
+THIRD/FOURTH YEAR | Gaming and Animation | - | Elective II & III (choose two) | CT-386 | Storyboarding and Previsualization | 3 | 0 | 3
+THIRD/FOURTH YEAR | Gaming and Animation | - | Elective II & III (choose two) | CT-387 | Video Games and Creative Writing | 3 | 0 | 3
+THIRD/FOURTH YEAR | Gaming and Animation | - | Elective IV (choose one) | CT-401 | Web 3D Programming | 2 | 1 | 3
+THIRD/FOURTH YEAR | Gaming and Animation | - | Elective IV (choose one) | CT-402 | Multicore and GPU Programming | 2 | 1 | 3
+THIRD/FOURTH YEAR | Gaming and Animation | - | Elective IV (choose one) | CT-403 | Blockchain Technologies | 2 | 1 | 3
+THIRD/FOURTH YEAR | Gaming and Animation | - | Elective IV (choose one) | CT-405 | Software Security | 2 | 1 | 3
+THIRD/FOURTH YEAR | Gaming and Animation | - | Elective V (choose one) | CT-406 | Metaverse and its Applications | 2 | 1 | 3
+THIRD/FOURTH YEAR | Gaming and Animation | - | Elective V (choose one) | CT-407 | Human Computer Interaction | 3 | 0 | 3
+THIRD/FOURTH YEAR | Gaming and Animation | - | Elective V (choose one) | CT-408 | Interactive Games and Audio | 3 | 0 | 3
