@@ -9,7 +9,8 @@ from utils.charts import (
     create_allocation_bar,
     create_gpa_distribution,
     create_specialization_pie,
-    create_section_breakdown
+    create_section_breakdown,
+    create_spec_by_section_breakdown
 )
 
 st.set_page_config(page_title="Merit Calculator", page_icon="📊", layout="wide")
@@ -201,4 +202,8 @@ with tab_analytics:
     with a2:
         st.plotly_chart(create_specialization_pie(df), use_container_width=True)
         
-    st.plotly_chart(create_section_breakdown(df), use_container_width=True)
+    a3, a4 = st.columns(2)
+    with a3:
+        st.plotly_chart(create_section_breakdown(df), use_container_width=True)
+    with a4:
+        st.plotly_chart(create_spec_by_section_breakdown(df), use_container_width=True)

@@ -117,3 +117,34 @@ def create_section_breakdown(df: pd.DataFrame) -> go.Figure:
         **LAYOUT_TEMPLATE
     )
     return fig
+
+def create_spec_by_section_breakdown(df: pd.DataFrame) -> go.Figure:
+    """Grouped bar for specialization allocations broken down by section."""
+    allocated_df = df[~df["allocated"].isin(["No Data", "Unallocated"])]
+    
+    # Sort section so colors are consistent and ordered
+    counts = allocated_df.groupby(["allocated", "section"]).size().reset_index(name="Count")
+    counts = counts.sort_values(by="section")
+    
+    # Use a generic color sequence for sections
+    section_colors = px.colors.qualitative.Pastel
+    
+    fig = px.bar(
+        counts, 
+        x="allocated", 
+        y="Count", 
+        color="section",
+        barmode="group",
+        color_discrete_sequence=section_colors
+    )
+    
+    # Clean up x-axis labels
+    fig.update_xaxes(tickvals=list(SPECIALIZATIONS.keys()), ticktext=[s.replace('Computer Science - (No Specialisation)', 'CS') for s in SPECIALIZATIONS.keys()])
+    
+    fig.update_layout(
+        title="Section Breakdown per Specialization",
+        xaxis_title="Specialization",
+        yaxis_title="Number of Students",
+        **LAYOUT_TEMPLATE
+    )
+    return fig
