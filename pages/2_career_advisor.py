@@ -71,22 +71,18 @@ with col2:
     trajectory_steps = role_data['career_trajectory'].split('->')
     steps_html = ""
     for idx, step in enumerate(trajectory_steps):
-        steps_html += f"""
-        <div style="display: flex; align-items: center; margin-bottom: 8px;">
-            <div style="background: var(--accent-indigo); width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.7rem; font-weight: bold; margin-right: 12px;">{idx+1}</div>
-            <div style="font-weight: 500;">{step.strip()}</div>
-        </div>
-        """
+        steps_html += f"""<div style="display: flex; align-items: center; margin-bottom: 8px;">
+<div style="background: var(--accent-indigo); width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.7rem; font-weight: bold; margin-right: 12px;">{idx+1}</div>
+<div style="font-weight: 500;">{step.strip()}</div>
+</div>"""
         if idx < len(trajectory_steps) - 1:
             steps_html += '<div style="height: 16px; width: 2px; background: var(--glass-border); margin-left: 11px; margin-bottom: 8px;"></div>'
             
-    st.markdown(f"""
-    <div class="glass-card">
-        <h4 style="margin-top: 0; margin-bottom: 16px;">Career Trajectory</h4>
-        {steps_html}
-        <div style="margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--glass-border);">
-            <div style="font-size: 0.8rem; color: var(--text-secondary);">Avg. Salary Range</div>
-            <div style="font-size: 1.2rem; font-weight: 700; color: var(--accent-emerald);">{role_data['salary_range']}</div>
-        </div>
-    </div>
-    """, unsafe_allow_html=True)
+    st.markdown(f"""<div class="glass-card">
+<h4 style="margin-top: 0; margin-bottom: 16px;">Career Trajectory</h4>
+{steps_html}
+<div style="margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--glass-border);">
+<div style="font-size: 0.8rem; color: var(--text-secondary);">Avg. Salary Range</div>
+<div style="font-size: 1.2rem; font-weight: 700; color: var(--accent-emerald);">{role_data['salary_range']}</div>
+</div>
+</div>""", unsafe_allow_html=True)
