@@ -25,6 +25,7 @@ result = get_processed_data()
 df = result["allocated_df"]
 closing_merit = result["closing_merit"]
 remaining_seats = result["remaining_seats"]
+seats_at_turn = result["seats_at_turn"]
 
 valid_students = df[df["has_data"]]
 total_students = len(df)
@@ -91,8 +92,8 @@ with tab_lookup:
                 </div>
                 """, unsafe_allow_html=True)
             
-            st.markdown("#### Seat Availability & Choices")
-            avail = get_student_availability(student, remaining_seats)
+            st.markdown("#### Seat Availability at the Time of Allocation")
+            avail = get_student_availability(student, seats_at_turn.get(student.name, {}))
             
             # Display choices
             c_cols = st.columns(5)
@@ -172,7 +173,7 @@ with tab_filter:
         ascending=[(sel_sort == "Ascending"), True]
     )
     
-    display_df = filtered_df[['roll_no', 'name', 'cgpa', 'section', 'allocated', 'alloc_choice', 'is_tied', 'choice_1']].copy()
+    display_df = filtered_df[['roll_no', 'name', 'cgpa', 'section', 'allocated', 'alloc_choice', 'is_tied', 'available_at_turn', 'choice_1', 'choice_2', 'choice_3', 'choice_4', 'choice_5']].copy()
     
     # Format for display
     display_df['cgpa'] = display_df['cgpa'].map('{:.3f}'.format)

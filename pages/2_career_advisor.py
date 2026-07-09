@@ -68,7 +68,7 @@ with col2:
     """, unsafe_allow_html=True)
     
     # Trajectory
-    trajectory_steps = role_data['career_trajectory'].split('→')
+    trajectory_steps = role_data['career_trajectory'].split('->')
     steps_html = ""
     for idx, step in enumerate(trajectory_steps):
         steps_html += f"""

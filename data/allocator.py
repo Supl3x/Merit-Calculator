@@ -59,6 +59,7 @@ def allocate_seats(df: pd.DataFrame) -> dict:
     # Results per student (indexed by DataFrame index)
     alloc_spec: dict[int, str] = {}
     alloc_choice: dict[int, int] = {}  # which choice number (1–5) they got
+    seats_at_turn: dict[int, dict[str, int]] = {}
 
     seat_log: list[tuple[str, str, int]] = []
 
@@ -72,6 +73,9 @@ def allocate_seats(df: pd.DataFrame) -> dict:
 
     # ── Allocate ─────────────────────────────────────────────────────────
     for idx, row in df.iterrows():
+        # Record what was available when this student's turn started
+        seats_at_turn[idx] = remaining.copy()
+        
         # Skip students without valid choices
         if not row["has_data"]:
             alloc_spec[idx] = "No Data"
@@ -106,21 +110,32 @@ def allocate_seats(df: pd.DataFrame) -> dict:
     result_df["allocated"] = result_df.index.map(alloc_spec)
     result_df["alloc_choice"] = result_df.index.map(alloc_choice)
     result_df["is_tied"] = result_df.index.isin(tied_indices)
+    
+    # Format the seats at turn as a string list of available specializations
+    def get_avail_str(idx):
+        if idx not in seats_at_turn:
+            return ""
+        turn_seats = seats_at_turn[idx]
+        avail = [SPECIALIZATIONS[k]["code"] for k, v in turn_seats.items() if v > 0]
+        return ", ".join(avail) if avail else "None"
+        
+    result_df["available_at_turn"] = result_df.index.map(get_avail_str)
 
     return {
         "allocated_df": result_df,
         "closing_merit": last_allocated,
         "remaining_seats": remaining,
         "seat_log": seat_log,
+        "seats_at_turn": seats_at_turn
     }
 
 
 def get_student_availability(
-    row: pd.Series, remaining_seats: dict[str, int]
+    row: pd.Series, turn_seats: dict[str, int]
 ) -> list[dict]:
     """
     For a specific student, show which specializations still have seats
-    and whether any of their choices are available.
+    and whether any of their choices are available at the time they were processed.
 
     Returns a list of dicts: [{spec, seats_left, is_in_choices, choice_rank}]
     """
@@ -128,7 +143,7 @@ def get_student_availability(
     student_choices = [row.get(c, NO_RESPONSE) for c in CHOICE_COLUMNS]
 
     for spec_name, info in SPECIALIZATIONS.items():
-        seats_left = remaining_seats.get(spec_name, 0)
+        seats_left = turn_seats.get(spec_name, 0)
         choice_rank = None
         if spec_name in student_choices:
             choice_rank = student_choices.index(spec_name) + 1
