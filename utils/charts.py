@@ -148,3 +148,37 @@ def create_spec_by_section_breakdown(df: pd.DataFrame) -> go.Figure:
         **LAYOUT_TEMPLATE
     )
     return fig
+
+def create_new_sections_breakdown(df: pd.DataFrame) -> go.Figure:
+    """Grouped bar for new allocated sections."""
+    allocated_df = df[~df["allocated"].isin(["No Data", "Unallocated"])]
+    
+    # Filter out empty new_section just in case
+    allocated_df = allocated_df[allocated_df["new_section"] != ""]
+    
+    counts = allocated_df.groupby(["allocated", "new_section"]).size().reset_index(name="Count")
+    counts = counts.sort_values(by=["allocated", "new_section"])
+    
+    section_colors = px.colors.qualitative.Set3
+    
+    fig = px.bar(
+        counts, 
+        x="allocated", 
+        y="Count", 
+        color="new_section",
+        barmode="group",
+        color_discrete_sequence=section_colors,
+        category_orders={"new_section": ["A", "B", "C", "D"]}
+    )
+    
+    fig.update_xaxes(tickvals=list(SPECIALIZATIONS.keys()), ticktext=[s.replace('Computer Science - (No Specialisation)', 'CS') for s in SPECIALIZATIONS.keys()])
+    
+    fig.update_layout(
+        title="New Sections Distribution per Specialization",
+        xaxis_title="Specialization",
+        yaxis_title="Number of Students",
+        legend_title="New Section",
+        **LAYOUT_TEMPLATE
+    )
+    return fig
+

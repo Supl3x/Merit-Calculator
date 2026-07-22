@@ -72,6 +72,11 @@ def allocate_seats(df: pd.DataFrame) -> dict:
             tied_indices.add(df.index[i - 1])
 
     # ── Allocate ─────────────────────────────────────────────────────────
+    spec_allocation_count: dict[str, int] = {
+        name: 0 for name in SPECIALIZATIONS.keys()
+    }
+    alloc_section: dict[int, str] = {}
+
     for idx, row in df.iterrows():
         # Record what was available when this student's turn started
         seats_at_turn[idx] = remaining.copy()
@@ -80,6 +85,7 @@ def allocate_seats(df: pd.DataFrame) -> dict:
         if not row["has_data"]:
             alloc_spec[idx] = "No Data"
             alloc_choice[idx] = 0
+            alloc_section[idx] = ""
             continue
 
         allocated = False
@@ -91,6 +97,13 @@ def allocate_seats(df: pd.DataFrame) -> dict:
                 remaining[spec] -= 1
                 alloc_spec[idx] = spec
                 alloc_choice[idx] = choice_num
+                
+                # Assign new section (A, B, C...) based on how many seats have been filled so far
+                current_count = spec_allocation_count[spec]
+                section_letter = chr(65 + (current_count // 50)) # 0-49 -> A, 50-99 -> B, etc.
+                alloc_section[idx] = section_letter
+                spec_allocation_count[spec] += 1
+                
                 seat_log.append((row["roll_no"], spec, choice_num))
                 last_allocated[spec] = {
                     "roll_no": row["roll_no"],
@@ -104,11 +117,13 @@ def allocate_seats(df: pd.DataFrame) -> dict:
         if not allocated:
             alloc_spec[idx] = "Unallocated"
             alloc_choice[idx] = 0
+            alloc_section[idx] = ""
 
     # ── Build result DataFrame ───────────────────────────────────────────
     result_df = df.copy()
     result_df["allocated"] = result_df.index.map(alloc_spec)
     result_df["alloc_choice"] = result_df.index.map(alloc_choice)
+    result_df["new_section"] = result_df.index.map(alloc_section)
     result_df["is_tied"] = result_df.index.isin(tied_indices)
     
     # Format the seats at turn as a string list of available specializations

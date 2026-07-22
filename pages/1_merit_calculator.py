@@ -10,7 +10,8 @@ from utils.charts import (
     create_gpa_distribution,
     create_specialization_pie,
     create_section_breakdown,
-    create_spec_by_section_breakdown
+    create_spec_by_section_breakdown,
+    create_new_sections_breakdown
 )
 
 st.set_page_config(page_title="Merit Calculator", page_icon="📊", layout="wide")
@@ -192,7 +193,8 @@ with tab_filter:
     st.download_button("Download Filtered Data (CSV)", csv, "merit_filtered.csv", "text/csv")
 
 
-# ── Tab 4: Analytics ──────────────────────────────────────────────────────────
+
+# ── Tab 5: Analytics ──────────────────────────────────────────────────────────
 with tab_analytics:
     st.markdown(section_header("📈", "Batch Analytics"), unsafe_allow_html=True)
     

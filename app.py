@@ -17,6 +17,7 @@ with st.sidebar:
     st.markdown("---")
     st.page_link("app.py", label="🏠 Home", icon="🏠")
     st.page_link("pages/1_merit_calculator.py", label="📊 Merit Calculator", icon="📊")
+    st.page_link("pages/4_allocated_sections.py", label="🎓 New Sections", icon="🎓")
     st.page_link("pages/2_career_advisor.py", label="🎯 Career Advisor", icon="🎯")
     st.page_link("pages/3_course_helper.py", label="📚 Course Helper", icon="📚")
 
